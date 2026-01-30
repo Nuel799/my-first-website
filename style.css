@@ -180,3 +180,16 @@ p {
 .container {
   padding-top: 12px;
 }
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  opacity: 0.6;
+}
+
+.footer p {
+  font-size: 0.85rem;
+  color: #bdbdbd;
+}
