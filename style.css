@@ -225,7 +225,14 @@ p {
 .project-card {
   background: rgba(255,255,255,0.03);
   padding: 16px;
+  margin-bottom: 16px;
   border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
 }
 
 .project-card h3 {
