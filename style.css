@@ -70,6 +70,20 @@ a:hover {
   opacity: 0.7;
 }
 
+.projects {
+  margin-top: 24px;
+}
+
+.project-card {
+  margin-top: 20px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
 .nav a.active {
   color: #4da3ff;
   font-weight: bold;
