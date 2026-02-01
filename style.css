@@ -116,14 +116,6 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.nav {
-  position: sticky;
-  top: 0;
-  background: #eaeaea;
-  padding: 12px 16px;
-  z-index: 100;
-}
-
 h1 {
   margin-bottom: 12px;
 }
@@ -145,16 +137,6 @@ p {
     font-size: 0.95rem;
   }
 
-  .nav {
-    padding: 12px 16px;
-    border-radius: 12px;
- }
-
-  .nav a {
-    margin-right: 10px;
-    font-size: 16px;
-  }
-
   .card {
     margin: 60px 12px;
     padding: 24px;
@@ -171,12 +153,6 @@ p {
     background: #eaeaea;
     max-width: 92%;
     margin: 0 auto;
-  }
-}
-
-  .nav a {
-    margin: 0 12px;
-    font-size: 16px;
   }
 
   .card {
