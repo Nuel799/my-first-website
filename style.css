@@ -21,22 +21,32 @@ body {
     opacity: 1;
   }
 
-/* nav */
+/* NAV */
 .nav {
   position: sticky;
   top: 0;
-  display: flex;
-  gap: 24px;
-  padding: 12px 20px;
-  background: #eaeaea;
   z-index: 10;
+
+  display: inline-flex;
+  gap: 24px;
+
+  padding: 12px 20px;
+  margin: 16px auto;
+
+  background: #eaeaea;
+  border-radius: 999px;
 }
 
 .nav a {
-  margin-right: 15px;
   font-weight: bold;
   color: #222;
   text-decoration: none;
+}
+
+.nav a.active {
+  color: #4da3ff;
+  border-bottom: 2px solid #4da3ff;
+  padding-bottom: 4px;
 }
 
 /* card */
@@ -90,15 +100,9 @@ a:hover {
   font-weight: 500;
 }
 
-.nav a.active {
-  color: #4da3ff;
-  font-weight: bold;
-  border-bottom: 2px solid #4da3ff;
-  padding-bottom: 4px;
-}
-
 .container {
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 40px 20px;
 }
 
@@ -193,10 +197,6 @@ p {
     font-size: 0.9rem;
   }
 
-}
-
-.container {
-  padding-top: 12px;
 }
 
 /* footer */
