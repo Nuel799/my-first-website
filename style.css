@@ -1,3 +1,5 @@
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -315,3 +317,13 @@ p {
     animation: none !important;
     transition: none !important;
   }
+
+.card ul {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
